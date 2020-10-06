@@ -33,5 +33,10 @@ def getAverage2():
     except ValueError:
         print("No value given")
 
-def countDown():
-    pass
+
+def countDownTimers(seconds = 5):
+    print("Starting in {} seconds: ".format(seconds), end="")
+    for second in range(seconds):
+        print(".", end= " ")
+        time.sleep(1)
+    print("\n")
