@@ -161,6 +161,8 @@ We can return information to the caller of the method through a 'Return' value
 # input("\n\nPress the enter key to exit.")
 
 
+
+
 """
 8888888888                                                       888          888    d8b                   
 888                                                              888          888    Y8P                   
@@ -257,20 +259,20 @@ We can also create our own modules to store/ organize functions we commonly use
 Once a module is imported it becomes an object in our code therefore we use the 
 same '.' dot notation as with any other object see example below
 """
-
-import jones # This is another python file named jones.py
-             # It has several functions defined in it I would like to use
-
-jones.hello() # Dot notation tells the interpreter where to find the 'hello()' function
-
-# Catching the returned results in the 'average' variable for use by the main application
-average = jones.getAverage2()
-
-# Main application using the results returned by the 'getAverage2()' function
-print(average)
-
-jones.countDownTimers()   # Uses default value defined in the function definition
-jones.countDownTimers(10) # Uses value passed as an argument by the user
+#
+# import jones # This is another python file named jones.py
+#              # It has several functions defined in it I would like to use
+#
+# jones.hello() # Dot notation tells the interpreter where to find the 'hello()' function
+#
+# # Catching the returned results in the 'average' variable for use by the main application
+# average = jones.getAverage2()
+#
+# # Main application using the results returned by the 'getAverage2()' function
+# print(average)
+#
+# jones.countDownTimers()   # Uses default value defined in the function definition
+# jones.countDownTimers(10) # Uses value passed as an argument by the user
 
 
 
